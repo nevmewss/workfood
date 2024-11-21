@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Mulish:regular,500,600,700&display=swap);
 [class*=_icon-]::before {
   font-family: icons;
   font-style: normal;
@@ -110,7 +110,7 @@ html {
 body {
   color: #e6e6e6;
   line-height: 1;
-  font-family: Inter;
+  font-family: Mulish;
   font-size: 1rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -121,7 +121,7 @@ body {
 button,
 input,
 textarea {
-  font-family: Inter;
+  font-family: Mulish;
   font-size: inherit;
   line-height: inherit;
   color: inherit;
@@ -385,7 +385,7 @@ body {
   line-height: 150%
 }
 .main {
-  background: url(../img/main/mainbg.webp) center/cover no-repeat;
+  background: url(../img/main/mainbg1.webp) center/cover no-repeat;
   min-height: 100vh
 }
 .main__container {
@@ -418,7 +418,7 @@ body {
 .features__item {
   color: #000;
   text-align: center;
-  padding: 4.625rem .9375rem 4.625rem .9375rem
+  padding: 1.25rem .9375rem 1.25rem .9375rem
 }
 .features__img {
   margin-bottom: 2rem
@@ -1067,9 +1067,6 @@ iframe {
     align-items: center;
     row-gap: 1.875rem;
     text-align: center
-  }
-  .main {
-    background-position: left
   }
   .features__container {
     grid-template-columns: repeat(3,14.375rem)
